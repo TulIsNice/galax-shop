@@ -23,7 +23,7 @@ function CheckLogin() {
 window.onload = CheckLogin()
 
   const AddCustomer = () => {
-    Axios.post('http://localhost:3001/add', { discordid: discordid, points: points }).then((response) => {
+    Axios.post('https://galax-shop-server.herokuapp.com/add', { discordid: discordid, points: points }).then((response) => {
       console.log(response.data.message)
       if (response.data.message === "Success!") {
         Swal.fire({

@@ -6,7 +6,7 @@ function Login() {
     const [password, setPassword] = useState("");
 
     const Check = () => {
-        Axios.post('http://localhost:3001/check',{
+        Axios.post('https://galax-shop-server.herokuapp.com/check',{
             password: password
         }).then((response) => {
             if (response.data.message === "Correct!") {

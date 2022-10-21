@@ -14,7 +14,7 @@ function Find() {
               window.location.reload()
               })
         } else {
-            Axios.post('http://localhost:3001/find',{
+            Axios.post('https://galax-shop-server.herokuapp.com/find',{
                 discordid: discordid
             }).then((response) => {
                 if (response.data.length > 0) {
