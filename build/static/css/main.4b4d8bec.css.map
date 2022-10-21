@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.4b4d8bec.css","mappings":"AAAA,KACE,iBAEF,CAEA,YAHE,2BAKF","sources":["App.css"],"sourcesContent":["body {\n  text-align: center;\n  font-family: 'Mitr', sans-serif;\n}\n\nbutton {\n  font-family: 'Mitr', sans-serif;\n}"],"names":[],"sourceRoot":""}
